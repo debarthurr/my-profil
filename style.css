@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.m_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.m_card-white {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.m_img-circle {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.m_btn-blue {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.m_list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+.m_list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.m_list-inline li:last-child {
+    margin-right: 0;
+}
+
+.m_fa-brands {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.m_fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.m_fa-facebook:hover {
+    color: #3b5998;
+}
+
+.m_fa-instagram:hover {
+    color: #e4405f;
+}
+
+/* Redimensionner les icônes des réseaux sociaux */
+.m_list-inline li a img {
+    width: 30px;
+    height: 30px;
+}
